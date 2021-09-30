@@ -1,0 +1,26 @@
+{
+  "name": "restaurantpage",
+  "version": "1.0.0",
+  "description": "using JS to generate the entire contents of the website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalikeChapman/RestaurantPage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MalikeChapman/RestaurantPage/issues"
+  },
+  "homepage": "https://github.com/MalikeChapman/RestaurantPage#readme",
+  "devDependencies": {
+    "css-loader": "^6.3.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
