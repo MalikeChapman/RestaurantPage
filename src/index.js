@@ -59,7 +59,7 @@ import { createContact } from '../contact.js';
 
     
         });
-        contactButton.addEventListener('click', (backgroundDiv) =>
+        contactButton.addEventListener('click', () =>
         {
             let secondNode = body.childNodes;
             body.removeChild(secondNode[1]);
