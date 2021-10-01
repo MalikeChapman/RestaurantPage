@@ -11,7 +11,7 @@ export function createContact(){
         
         backgroundDiv.style.backgroundColor = "rgba(1.1, 1.1, 1.1, 0.5)";
         backgroundDiv.style.width = "70%";
-        backgroundDiv.style.height = "100vh";
+        backgroundDiv.style.height = "70vh";
         backgroundDiv.style.margin = "30px auto";
         backgroundDiv.style.border = "3px solid white";
         return backgroundDiv;

@@ -10,7 +10,7 @@ import { createContact } from '../contact.js';
 
         body.style.backgroundImage = "url(/images/giphy-downsized-large.gif)";
         body.style.backgroundSize = "cover";
-        body.style.height = "100vh";
+        body.style.height = "110vh";
         heading.style.display = "flex";
         heading.style.flexDirection = "row";
         heading.style.justifyContent = "center";
@@ -43,6 +43,8 @@ import { createContact } from '../contact.js';
             body.appendChild(backgroundDiv);
             body.style.backgroundImage = "url(/images/giphy-downsized-large.gif)";
             body.style.backgroundSize = "cover";
+            body.style.height = "110vh";
+
     
         });
         menuButton.addEventListener('click', () =>
@@ -53,6 +55,8 @@ import { createContact } from '../contact.js';
             body.appendChild(newbackgroundDiv);
             body.style.backgroundImage = "url(/images/WelldocumentedOrderlyAfghanhound-max-1mb.gif)";
             body.style.backgroundSize = "cover";
+            body.style.height = "200vh";
+
     
         });
         contactButton.addEventListener('click', (backgroundDiv) =>
@@ -63,6 +67,8 @@ import { createContact } from '../contact.js';
             body.appendChild(newbackgroundDiv);
             body.style.backgroundImage = "url(/images/200.gif)";
             body.style.backgroundSize = "cover";
+            body.style.height = "100vh";
+
     
         });
 

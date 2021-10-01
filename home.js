@@ -12,24 +12,23 @@ export function createHome()
     
     backgroundDiv.style.display = "flex";
     backgroundDiv.style.flexDirection = "column";
-    backgroundDiv.style.justifyContent = "flex-start";
+    backgroundDiv.style.justifyContent = "space-between";
     backgroundDiv.style.alignItems = "center";
     backgroundDiv.style.backgroundColor = "rgba(1.1, 1.1, 1.1, 0.5)";
     backgroundDiv.style.width = "70%";
     backgroundDiv.style.height = "100vh";
     backgroundDiv.style.margin = "30px auto";
     backgroundDiv.style.border = "3px solid white";
+    
 
 
 
 
-    const titleDiv = document.createElement('div');
     const title = document.createElement('h1');
     title.textContent = "IIIREE";
-    title.style.border = "3px solid white";
     title.style.borderRadius = "6px";
     title.textAlign = "center";
-    // titleDiv.appendChild(title);
+    title.style.flexBasis = "auto";
 
     backgroundDiv.appendChild(title);
     return backgroundDiv;
@@ -56,6 +55,7 @@ export function createHome()
     hoursDiv.style.border = "3px solid white";
     hoursDiv.style.borderRadius = "10px";
     hoursDiv.style.margin = "40px";
+    hoursDiv.style.flexBasis = "auto";
 
 
     const hoursUL = document.createElement('ul');
@@ -101,6 +101,7 @@ export function createHome()
     const locationDiv = document.createElement('div');
     locationDiv.style.width = "300px";
     locationDiv.style.height = "fit-content";
+    locationDiv.style.flexBasis = "auto";
 
 
     const locationParagraph = document.createElement('p');
